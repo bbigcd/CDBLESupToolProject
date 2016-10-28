@@ -14,6 +14,7 @@
 		2A22241E1DC341D0003907B8 /* CDBLESupToolProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22241D1DC341D0003907B8 /* CDBLESupToolProjectTests.m */; };
 		2A2224291DC341D0003907B8 /* CDBLESupToolProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2224281DC341D0003907B8 /* CDBLESupToolProjectUITests.m */; };
 		2A22243E1DC3432A003907B8 /* CDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22243D1DC3432A003907B8 /* CDMainViewController.m */; };
+		2A2224411DC36768003907B8 /* CDTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2224401DC36768003907B8 /* CDTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		2A22242A1DC341D0003907B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A22243C1DC3432A003907B8 /* CDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMainViewController.h; sourceTree = "<group>"; };
 		2A22243D1DC3432A003907B8 /* CDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMainViewController.m; sourceTree = "<group>"; };
+		2A22243F1DC36768003907B8 /* CDTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTools.h; sourceTree = "<group>"; };
+		2A2224401DC36768003907B8 /* CDTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 		2A2224361DC34260003907B8 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				2A22243F1DC36768003907B8 /* CDTools.h */,
+				2A2224401DC36768003907B8 /* CDTools.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A2224411DC36768003907B8 /* CDTools.m in Sources */,
 				2A2224081DC341D0003907B8 /* AppDelegate.m in Sources */,
 				2A22243E1DC3432A003907B8 /* CDMainViewController.m in Sources */,
 				2A2224051DC341D0003907B8 /* main.m in Sources */,
@@ -542,6 +548,7 @@
 				2A22242F1DC341D0003907B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A2224301DC341D0003907B8 /* Build configuration list for PBXNativeTarget "CDBLESupToolProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +557,7 @@
 				2A2224321DC341D0003907B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A2224331DC341D0003907B8 /* Build configuration list for PBXNativeTarget "CDBLESupToolProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +566,7 @@
 				2A2224351DC341D0003907B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
